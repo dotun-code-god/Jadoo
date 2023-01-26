@@ -12,9 +12,11 @@ module.exports = {
       screens: {
         'xs' : {max : '500px'},
         'xxs' : {max : '390px'},
-        'xsm' : {min: '770px', max: '900px'},
+        'xsm' : {min: '770px', max: '930px'},
         'sm-max' : {max:'770px', min:'500px'},
-        'xxsm' : {max:'616px', min:'500px'}
+        'xxsm' : {max:'616px', min:'500px'},
+        'xmd' : {max: '1023px', min: '930px'},
+        'xlg' : {max:'1279px', min:'1155px'}
       },
       colors: {
         header_primary: ['#14183E'],
