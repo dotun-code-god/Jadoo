@@ -31,52 +31,66 @@ const Navigation = () => (
     <motion.ul variants={variants} className='font-Google_Sans flex flex-col gap-3'>
         <motion.li
             variants={variants2}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
         >
-            <div className='relative -left-1/2 bg-white px-6 py-2 rounded-md'>Destination</div>
+            <a href="/">
+            <div className='relative -left-1/2 bg-[#D5AEE4]/80 text-black font-medium sm:w-28 w-[120px] py-2 rounded-md shadow-lg text-center'>Destination</div>
+            </a>
         </motion.li>
         <motion.li
             variants={variants2}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
         >
-            <div className='relative -left-1/2 bg-white px-6 py-2 rounded-md'>Hotels</div>
+            <a href="/">
+            <div className='relative -left-1/2 bg-[#D5AEE4]/80 text-black font-medium sm:w-28 w-[120px] py-2 rounded-md shadow-lg text-center'>Hotels</div>
+            </a>
         </motion.li>
         <motion.li
             variants={variants2}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
         >
-            <div className='relative -left-1/2 bg-white px-6 py-2 rounded-md'>Flight</div>
+            <a href="/">
+            <div className='relative -left-1/2 bg-[#D5AEE4]/80 text-black font-medium sm:w-28 w-[120px] py-2 rounded-md shadow-lg text-center'>Flight</div>
+            </a>
         </motion.li>
         <motion.li
             variants={variants2}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
         >
-            <div className='relative -left-1/2 bg-white px-6 py-2 rounded-md'>Bookings</div>
+            <a href="/">
+            <div className='relative -left-1/2 bg-[#D5AEE4]/80 text-black font-medium sm:w-28 w-[120px] py-2 rounded-md shadow-lg text-center'>Bookings</div>
+            </a>
         </motion.li>
         <motion.li
             variants={variants2}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
         >
-            <div className='relative -left-1/2 bg-white px-6 py-2 rounded-md'>Login</div>
+            <a href="/">
+            <div className='relative -left-1/2 bg-[#D5AEE4]/80 text-black font-medium sm:w-28 w-[120px] py-2 rounded-md shadow-lg text-center'>Login</div>
+            </a>
         </motion.li>
         <motion.li
             variants={variants2}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
         >
-            <div className='relative -left-1/2 bg-white px-3 py-2 rounded-md'>Sign Up</div>
+            <a href="/">
+            <div className='relative -left-1/2 bg-[#D5AEE4]/80 text-black font-medium sm:w-28 w-[120px] py-2 rounded-md shadow-lg text-center'>Sign Up</div>
+            </a>
         </motion.li>
         <motion.li
             variants={variants2}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
         >
-            <div className='relative -left-1/2 bg-white px-6 py-2 rounded-md'>EN</div>
+            <a href="/">
+            <div className='relative -left-1/2 bg-[#D5AEE4]/80 text-black font-medium sm:w-28 w-[120px] py-2 rounded-md shadow-lg text-center'>EN</div>
+            </a>
         </motion.li>
     </motion.ul>
 )

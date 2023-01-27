@@ -6,6 +6,7 @@ import { MenuToggle, Navigation } from './index';
 
 const sidebar = {
   open: (height = 1000) => ({
+    // clipPath: "circle(30px at 40px 40px)",
     clipPath: `circle(${height * 2 + 200}px at 40px 40px)`,
     transition: {
       type: "spring",
@@ -29,14 +30,15 @@ const HeaderContainer = () => {
   const containerRef= useRef(null);
   
   return (
-    <div className='md:mt-12 mt-8 flex items-center justify-between'>
+    <div className='md:py-8 py-5 fixed top-0 w-full right-0 z-[990] shadow-lg bg-white/70 backdrop-blur-md'>
+      <div className='flex items-center justify-between xl:px-[140.92px] lg:px-[95px] md:px-[65px] px-[4%]'>
         <img src={Logo} alt="Logo" className='w-28'/>
           <ul className='md:flex hidden xl:gap-16 lg:gap-10 md:gap-4 text-[#212832] font-Google_Sans items-center font-medium'>
-            <li>Destinations</li>
-            <li>Hotels</li>
-            <li>Flights</li>
-            <li>Bookings</li>
-            <li>Login</li>
+            <li><a href="/">Destinations</a></li>
+            <li><a href="/">Hotels</a></li>
+            <li><a href="/">Flights</a></li>
+            <li><a href="/">Bookings</a></li>
+            <li><a href="/">Login</a></li>
             <li className='border-[#212832] border-[1px] px-[14px] py-1 rounded-md'>Sign up</li>
             <li className='flex items-center'>
               <span className='mr-1'>EN</span> 
@@ -50,11 +52,12 @@ const HeaderContainer = () => {
         animate={isOpen ? "open" : "closed"}
         ref={containerRef}
       >
-        <motion.div className='absolute z-[99] top-[10px] right-0 bottom-0 w-[90px] bg-white' variants={sidebar}>
+          <motion.div className='absolute z-[99] -top-[5px] right-0 bg-[#D5AEE4]/80 bottom-0 w-[90px]' variants={sidebar}>
           <Navigation />
           <MenuToggle toggle={() => toggleOpen()} />
         </motion.div>
       </motion.nav>
+      </div>
     </div>
   )
 }
