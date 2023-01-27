@@ -14,7 +14,7 @@ const DestinationsContainer = () => {
                 <img src={Decore2} className='absolute lg:-right-16 md:-right-10 xl:top-36 md:top-16 w-24 lg:h-64 h-56 -z-10 sm:block hidden' alt="" />
                 <div
                     className='sm-max:col-span-2 relative rounded-[24px] xl:w-[320px] lg:w-[250px] xlg:w-[295px] md:w-[205px] xmd:w-[235px]  xxsm:w-[220px] sm-max:w-[260px] xs-[200px] '>
-                    <img src={Italy} className='object-cover w-full custom_drop_shadow' alt=""
+                    <img src={Italy} className='object-cover w-full custom-drop-shadow' alt=""
                     />
                     <div className='lg:text-base text-sm absolute -bottom-[0.3rem] bg-white w-full rounded-[0px_0px_24px_24px] px-6 pt-6 pb-10'>
                         <div className='flex items-center justify-between'>
@@ -29,7 +29,7 @@ const DestinationsContainer = () => {
                 </div>
                 <div
                     className='sm-max:col-span-2 relative rounded-[24px] xl:w-[320px] lg:w-[250px] xlg:w-[295px] md:w-[205px] xmd:w-[235px] xxsm:w-[220px] sm-max:w-[260px] xs-[200px] '>
-                    <img src={London} className='object-cover w-ful custom_drop_shadow' alt=""
+                    <img src={London} className='object-cover w-ful custom-drop-shadow' alt=""
                     />
                     <div className='lg:text-base text-sm absolute -bottom-[0.3rem] bg-white w-full rounded-[0px_0px_24px_24px] px-6 pt-6 pb-10'>
                         <div className='flex items-center justify-between'>
@@ -44,7 +44,7 @@ const DestinationsContainer = () => {
                 </div>
                 <div
                     className='sm-max:col-start-2 sm-max:col-span-2 relative rounded-[24px] xl:w-[320px] lg:w-[250px] xlg:w-[295px] md:w-[205px] xmd:w-[235px]  xxsm:w-[220px] sm-max:w-[260px] xs-[200px] '>
-                    <img src={Europe} className='object-cover w-full custom_drop_shadow' alt=""
+                    <img src={Europe} className='object-cover w-full custom-drop-shadow' alt=""
                     />
                     <div className='lg:text-base text-sm absolute -bottom-[0.3rem] bg-white w-full rounded-[0px_0px_24px_24px] px-6 pt-6 pb-10'>
                         <div className='flex items-center justify-between'>

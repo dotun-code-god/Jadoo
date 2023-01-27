@@ -7,7 +7,8 @@ module.exports = {
         Google_Sans: ["Google Sans", "sans-serif"],
         Poppins: ["Poppins", "sans-serif"],
         Volkhov: ["Volkhov", "serif"],
-        Open_Sans: ["Open Sans", "sans-serif"]
+        Open_Sans: ["Open Sans", "sans-serif"],
+        Montserrat: ["Montserrat", "sans-serif"]
       },
       screens: {
         'xs' : {max : '500px'},

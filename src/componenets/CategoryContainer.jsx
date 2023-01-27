@@ -23,7 +23,7 @@ const CategoryContainer = () => {
                             <p className='text-center sm:mt-4 mt-3 xs:mt-2 font-Poppins font-medium text-header_secondary-0 xl:text-base lg:text-[0.9rem] md:text-[0.8rem] text-sm xxs:text-xs'>Built Wicket longer admire do barton vanity itself do in it.</p>
                         </div>
                     </div>
-                    <div className='relative flex items-center justify-center flex-col xl:px-11 px-5 xxs:px-3 md:w-auto sm:w-[250px] sm-max:w-[220px] xs:w-[185px] xxs:w-[145px] xl:py-10 :py-4 rounded-[36px] bg-white custom_shadow'>
+                    <div className='relative flex items-center justify-center flex-col xl:px-11 px-5 xxs:px-3 md:w-auto sm:w-[250px] sm-max:w-[220px] xs:w-[185px] xxs:w-[145px] xl:py-10 :py-4 rounded-[36px] bg-white custom-shadow'>
                         <div className='relative'>
                             <img src={Plane} alt="" className='lg:w-[88px] w-[80px] relative z-10' />
                             <span className='rounded-[18px_5px_10px] absolute -top-2 left-4 bg-[#FFF1DA] w-12 h-12' style={{ transform: "matrix(1, 0, 0, -1, 0, 0)" }}></span>

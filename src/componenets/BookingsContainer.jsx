@@ -43,7 +43,7 @@ const BookingsContainer = () => {
             </div>
             <div className='relative font-Poppins'>
                 <span className='bg-[#59B1E6]/80 blur-[75px] w-[200px] xs:w-[165px] h-[215px] xs:h-[185px] absolute md:left-12 left-32 xsm:left-32 md:top-8 top-11'></span>
-                <div className='relative xl:right-28 xlg:right-16 md:right-10 xsm:right-0 right-0 md:top-[25px] xsm:top-[70px] top-[70px] xxs:top-[50px] bg-white rounded-[26px] p-5 xxs:p-3 md:w-auto w-[321px] xsm:w-[321px] xs:w-[285px] xxs:w-[calc(100%-70px)] custom_shadow'>
+                <div className='relative xl:right-28 xlg:right-16 md:right-10 xsm:right-0 right-0 md:top-[25px] xsm:top-[70px] top-[70px] xxs:top-[50px] bg-white rounded-[26px] p-5 xxs:p-3 md:w-auto w-[321px] xsm:w-[321px] xs:w-[285px] xxs:w-[calc(100%-70px)] custom-shadow'>
                     <img src={Trip_Greece} alt="" className='w-[321px]' />
                     <div className='mt-4'>
                         <h1 className='text-[#080809] font-medium xxs:text-sm'>Trip to Greece</h1>
@@ -61,7 +61,7 @@ const BookingsContainer = () => {
                             <img src={LoveVector} className='w-7 xs:w-5' alt="" />
                         </div>
                     </div>
-                    <div className='bg-white absolute md:top-[205px] top-[190px] xsm:top-[195px] xs:top-[180px] xxs:top-[150px] left-full xxs:left-[calc(100%-10px)] -translate-x-1/2 flex items-start rounded-[18px] p-4 xxs:p-2 xl:w-64 md:w-52 w-56 xsm:w-56 xxs:w-44 custom_shadow'>
+                    <div className='bg-white absolute md:top-[205px] top-[190px] xsm:top-[195px] xs:top-[180px] xxs:top-[150px] left-full xxs:left-[calc(100%-10px)] -translate-x-1/2 flex items-start rounded-[18px] p-4 xxs:p-2 xl:w-64 md:w-52 w-56 xsm:w-56 xxs:w-44 custom-shadow'>
                         <img src={Trip_Rome} className='mr-3 xxs:mr-2 w-10 xxs:w-7' alt="" />
                         <div className='text-header_primary-0'>
                             <p className='text-header_secondary-0 text-[14px] font-medium xxs:text-sm'>Ongoing</p>

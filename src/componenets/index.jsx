@@ -6,3 +6,6 @@ export { default as CategoryContainer } from './CategoryContainer';
 export { default as DestinationsContainer } from './DestinationsContainer';
 export {default as BookingsContainer } from './BookingsContainer';
 export { default as TestimonialsContainer } from './TestimonialsContainer';
+export { default as SponsorsContainer } from './SponsorsContainer';
+export { default as SubscriptionContainer } from './SubscriptionContainer';
+export { default as FooterContainer } from './FooterContainer';

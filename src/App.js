@@ -1,5 +1,6 @@
 import React from 'react';
-import { HeaderContainer, HeroContainer, CategoryContainer, DestinationsContainer, BookingsContainer, TestimonialsContainer } from './componenets';
+import { HeaderContainer, HeroContainer, CategoryContainer, DestinationsContainer, 
+  BookingsContainer, TestimonialsContainer, SponsorsContainer, SubscriptionContainer, FooterContainer } from './componenets';
 
 const App = () => {
   return (
@@ -10,6 +11,9 @@ const App = () => {
       <DestinationsContainer />
       <BookingsContainer />
       <TestimonialsContainer />
+      <SponsorsContainer />
+      <SubscriptionContainer />
+      <FooterContainer />
     </div>
   )
 }
